@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ristorante</title>
+</head>
+<body>
+
+    <!-- navigazione -->
+    <nav class="navbar navbar-expand-sm" style="background-color: rgb(46 77 76);" data-bs-theme="dark" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Antica Osteria</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Ristorante</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menù</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- CAROUSEL -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/dishes.jpg" class="d-block w-100" alt="..." />
+      <div
+        class="carousel-caption h-100 d-flex flex-column justify-content-center"
+      >
+        <h5 class="display-2 fw-bold">Cucina casalinga</h5>
+        <p>Cucina genuina come a casa tua dalla colazione al pranzo, e infine la cena</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="img/restaurant-background.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div
+        class="carousel-caption h-100 d-flex flex-column justify-content-center"
+      >
+        <h5 class="display-2 fw-bold">Cucina casalinga</h5>
+        <p>Piatti speciale elaborati ma cucinati in modo genuino.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/people-2.jpg" class="d-block w-100" alt="..." />
+      <div
+        class="carousel-caption h-100 d-flex flex-column justify-content-center"
+      >
+        <h5 class="display-2 fw-bold">Cucina casalinga</h5>
+        <p>Dai sapori che ti lasciano sognare .</p>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+  
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      
+          <!-- voci principali -->
+          <div class="bg-secondary-subtle">
+           <section class="container py-5">
+            <div class="row gy-5 gx-3 " >
+             <div class="col-sm-4 text-center">
+                <img 
+                src="img/people.jpg" 
+                class="img-fluid rounded-circle w-75 " 
+                alt="">
+                <h2 class="mt-3">Il Ristorante</h2>
+                <p>Dove puoi gustare dall'aperitivo al dolce</p>
+                <button class="btn btn-primary">Scopri di più</button>
+            </div>  
+                <div class="col-sm-4 text-center">
+                    <img src="img/restaurant.jpg" 
+                    class="img-fluid rounded-circle w-75 " 
+                    alt="">
+                   <h2 class="mt-3">Il Ristorante</h2>
+                   <p>Caldo accogliente e elegante </p>
+                   <button class="btn btn-primary">Scopri di più</button>
+             </div>  
+                <div class="col-sm-4 text-center">
+                    <img 
+                    src="img/staff.jpg" 
+                    class="img-fluid rounded-circle w-75 " 
+                    alt="">
+                   <h2 class="mt-3" >Il Ristorante</h2>
+                   <p>Il personale al vostro servizio</p>
+                   <button class="btn btn-primary">Scopri di più</button>
+             </div>  
+             </div>
+          </section>
+        </div>
+
+        <!-- descrizione -->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 p-5">
+        <h2>Sei un buon gustaio hai trovato il posto giusto</h2>
+        <p>Dove gustare piatti speciali dalla Cucina Mediterranea, alla Cucina Macrobiotica . Puoi gustare anche piatti tipici di ogni regione di Italia e gustarli come se fossi li .</p>
+      </div>
+      <div class="col-md-6 p-0">
+        <img src="img/people.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 p-5 order-md-2  ">
+        <h2>Sei un buon gustaio ti piace mangiare bene?</h2>
+        <p>Allora non perderti i nostri sfiziosissimi antipasti , quelli della casa e quelli di mare, sono piatti speciali che facciamo solo noi.</p>
+      </div>
+      <div class="col-md-6 p-0">
+        <img src="img/people-2.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 p-5 ">
+        <h2>Ti piace mangiare ?</h2>
+        <p>Allora non perderti questo gustosissimo primo di mare con pesce di scoglio, crema e verdure cotte.</p>
+      </div>
+      <div class="col-md-6 p-0">
+        <img src="img/secondo2.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- pie di pagina -->
+  <footer class="footer" style="background-color: rgb(46 77 76); color:white">
+    
+    <div class="container py-2 gx-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h6 class="m-0 p-0">Antica Osteria</h6>
+        <p class="m-0 p-0" >Cucina casalinga, porzioni da re</p>
+        <address class="m-0 p-0">Via Mazzini 32- 00100 Roma, <br> Tele-06-12345678</address>
+      </div>
+      <div class="col-sm-4">
+        <h6 class="m-0 p-0" >Orari</h6>
+        <p class="m-0 p-0">Lunedi chiuso <br>
+        <strong>Mar-Dom:</strong> 11.00 - 22.00</p>
+      </div>
+      <div class="col-sm-4 ms-auto">
+        <h6 class="m-0 p-0">Navigazione</h6>
+       
+        <ul class="navbar-nav">  
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">Ristorante</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menù</a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </footer>
+</body>
+</html>
